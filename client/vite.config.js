@@ -8,7 +8,7 @@ export default defineConfig({
     port: 5173,
     proxy: {
       '/api': {
-        target: 'https://e-ration-g7cb.onrender.com',
+        target: 'https://e-ration-gmxr.onrender.com',
         changeOrigin: true,
       }
     }
