@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL:'https://e-ration-g7cb.onrender.com',
+  baseURL:'https://e-ration-gmxr.onrender.com',
 });
 
 API.interceptors.request.use((config) => {
